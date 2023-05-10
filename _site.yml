@@ -1,0 +1,20 @@
+name: "my-website"
+navbar:
+  title: "Jongwon Yoo"
+  left:
+    - text: "Home"
+      href: index.html
+
+    - text: "Blog"
+      href: blog.html         
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<jong1yoo@outlook.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/eyoungkim/
+    - icon: fa-twitter
+      href: https://twitter.com/EYoung_Kim
+
+output: html_document
+
+output_dir: docs
